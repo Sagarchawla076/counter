@@ -1,0 +1,46 @@
+.app {
+  width: 60vw;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.component {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  button {
+    border: none;
+    padding: 1rem 2rem;
+    font-size: inherit;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.4);
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.3);
+    }
+  }
+  .reset {
+    background-color: var(--color-reset);
+    &:hover {
+      background-color: var(--color-reset-hover);
+    }
+  }
+  .increment {
+    background-color: var(--color-increment);
+    &:hover {
+      background-color: var(--color-increment-hover);
+    }
+  }
+  .decrement {
+    background-color: var(--color-decrement);
+    &:hover {
+      background-color: var(--color-decrement-hover);
+    }
+  }
+}

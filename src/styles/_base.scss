@@ -1,0 +1,23 @@
+:root {
+  --color-reset: #6d8299;
+  --color-reset-hover: #8ca1a5;
+  --color-increment: #6ecb63;
+  --color-increment-hover: #b1e693;
+  --color-decrement: #ff5c58;
+  --color-decrement-hover: #fe8f8f;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2.5rem;
+}
